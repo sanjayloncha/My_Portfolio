@@ -1,0 +1,16 @@
+#project_main_heading {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-img-top {
+    padding: 10px;
+    width: 100%;
+    /* height: 100%; */
+    /* box-shadow: 0 0 5px black; */
+    /* border-radius: 5px; */
+}
+
+.btn {
+    background-color: teal;
+}

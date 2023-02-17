@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Quintessential&family=Sevillana&family=Titillium+Web:wght@400;700&display=swap');
+
+.navBar_span {
+    font-family: 'Quintessential', cursive;
+    font-size: 30px;
+    font-weight: 600 ;
+}
+
+.nav-item,.navbar-brand {
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}

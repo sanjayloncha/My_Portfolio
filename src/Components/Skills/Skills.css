@@ -1,0 +1,19 @@
+.skill img {
+    /* box-shadow: 0 0 10px black; */
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.img_title {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.card {
+    box-shadow: 0 0 10px black;
+}
+
+.skill_main_heading {
+    font-size: 30px;
+    font-weight: 500;
+}

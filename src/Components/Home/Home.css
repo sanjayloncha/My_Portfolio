@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Quintessential&family=Sevillana&family=Titillium+Web&display=swap');
+
+.home__bg {
+    /* height: 50vh ; */
+    /* background-color: rebeccapurple; */
+   
+    margin-top: 120px ;
+    margin-bottom: 80px;
+
+}
+
+.img__container {
+    width: 35% ;
+}
+
+.hero_name {
+    font-family: 'Quintessential', cursive; 
+}
