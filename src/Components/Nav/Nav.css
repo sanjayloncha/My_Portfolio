@@ -13,3 +13,8 @@
 .nav-link:hover {
     border-bottom: 2px solid white;
 }
+
+.navbar-toggler {
+    background-color: rebeccapurple;
+    color: white;
+}

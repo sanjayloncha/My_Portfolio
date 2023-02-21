@@ -22,7 +22,6 @@ export default function Github() {
   let style = {
     margin: "10px auto",
     padding: "5px 10px",
-    height : "100%"
   };
 
   return (
@@ -32,7 +31,7 @@ export default function Github() {
           <div className="display-5 mx-auto text-center mt-2 mb-4 ">
             Github Stats/Overview
           </div>
-          <div className="col-11 col-lg-6 my-2 mx-auto text-center ">
+          <div className="col-11 col-lg-7 my-2 mx-auto text-center ">
             <div class="card">
               <GitHubCalendar
                 username="sanjayloncha"
@@ -45,18 +44,18 @@ export default function Github() {
               />
             </div>
           </div>
-          <div className="coll-11 col-lg-6 my-2 mx-auto text-center ">
-            <div className="card">
+          <div className="coll-11 col-lg-7 my-4 mx-auto text-center ">
+            <div className="card" >
               <img
                 title="🔥 Get streak stats for your profile at git.io/streak-stats"
                 alt="sanjay streak"
                 src="https://github-readme-streak-stats.herokuapp.com/?user=sanjayloncha&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"
-                width="95%"
+                width="100%"
                 class="img-fluid  m-auto "
               />
             </div>
           </div>
-          <div className="col-11 col-lg-6 my-2 mx-auto text-center ">
+          <div className="col-11 col-lg-7 my-2 mx-auto text-center ">
             <div className="card">
               <img
                 src="https://github-readme-stats.vercel.app/api?username=sanjayloncha&show_icons=true&count_private=true&hide_border=true"
