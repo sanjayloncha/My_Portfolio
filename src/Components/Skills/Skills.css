@@ -9,9 +9,15 @@
 
 .card {
     box-shadow: 0 0 10px black;
+    /* border: 10px solid black;
+    background-color: rebeccapurple; */
 }
 
 .card:hover {
     cursor: pointer;
     box-shadow: 5px 0px 30px  black;
+}
+
+.skill img {
+    filter: drop-shadow(4px 4px 5px #000);
 }

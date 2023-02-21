@@ -12,12 +12,14 @@ export default function Nav() {
             I am <span className='navBar_span' > Developer </span>
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
           </button>
 
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -38,7 +40,7 @@ export default function Nav() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light " href="#skill">
+                <a class="nav-link text-light " href="#github">
                   Github
                 </a>
               </li>

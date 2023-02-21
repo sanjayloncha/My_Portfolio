@@ -31,7 +31,7 @@ export default function Github() {
           <div className="display-5 mx-auto text-center mt-2 mb-4 ">
             Github Stats/Overview
           </div>
-          <div className="col-11 col-lg-7 my-2 mx-auto text-center ">
+          <div data-aos="flip-left" data-aos-duration="700"   data-aos-easing="ease-in-out" className="col-11 col-lg-7 my-2 mx-auto text-center ">
             <div class="card">
               <GitHubCalendar
                 username="sanjayloncha"
@@ -44,7 +44,7 @@ export default function Github() {
               />
             </div>
           </div>
-          <div className="coll-11 col-lg-7 my-4 mx-auto text-center ">
+          <div data-aos="flip-right" data-aos-duration="700"   data-aos-easing="ease-in-out" className="coll-11 col-lg-7 my-4 mx-auto text-center ">
             <div className="card" >
               <img
                 title="🔥 Get streak stats for your profile at git.io/streak-stats"
@@ -55,7 +55,7 @@ export default function Github() {
               />
             </div>
           </div>
-          <div className="col-11 col-lg-7 my-2 mx-auto text-center ">
+          <div data-aos="flip-left" data-aos-duration="700"   data-aos-easing="ease-in-out" className="col-11 col-lg-7 my-2 mx-auto text-center ">
             <div className="card">
               <img
                 src="https://github-readme-stats.vercel.app/api?username=sanjayloncha&show_icons=true&count_private=true&hide_border=true"

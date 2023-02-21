@@ -20,8 +20,9 @@ export default function Home() {
           <div className="img__container  mx-auto ">
             <img
               src="https://avatars.githubusercontent.com/u/71871677?v=4"
-              alt=""
+              alt="hero-image"
               className=" img-fluid rounded-circle"
+              id="hero_image"
             />
           </div>
         </div>
