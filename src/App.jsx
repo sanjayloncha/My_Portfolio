@@ -5,6 +5,7 @@ import Skills from "./Components/Skills/Skills";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contacts/Contact";
+import Github from "./Components/Github/Github";
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Github   />
       <Projects />
       <Contact />
     </div>

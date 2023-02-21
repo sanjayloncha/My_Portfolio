@@ -32,10 +32,10 @@ export default function Projects() {
                 </p>
                 <div className="d-flex justify-content-around align-items-center">
                   {" "}
-                  <a href="https://github.com/sanjayloncha/Domino-s_Clone" target="_blank" class="btn btn-danger mx-2">
+                  <a href="https://github.com/sanjayloncha/Domino-s_Clone" target="_blank" class="btn btn-dark mx-2">
                     <i class="fa-brands fa-github mx-2 "></i>Github
                   </a>
-                  <a href="https://startling-kitsune-fc132d.netlify.app/" target="_blank" class="btn btn-danger ">
+                  <a href="https://startling-kitsune-fc132d.netlify.app/" target="_blank" class="btn btn-dark ">
                     <i class="fa-solid fa-code me-3"></i>Live
                   </a>
                 </div>
@@ -57,10 +57,10 @@ export default function Projects() {
                 </p>
                 <div className="d-flex justify-content-around align-items-center">
                   {" "}
-                  <a href="https://github.com/sanjayloncha/myMovieApp" target="_blank" class="btn btn-danger mx-2">
+                  <a href="https://github.com/sanjayloncha/myMovieApp" target="_blank" class="btn btn-dark mx-2">
                     <i class="fa-brands fa-github mx-2 "></i>Github
                   </a>
-                  <a href="https://mymovie-search-app.netlify.app/" target="_blank" class="btn btn-danger ">
+                  <a href="https://mymovie-search-app.netlify.app/" target="_blank" class="btn btn-dark ">
                     <i class="fa-solid fa-code me-3"></i>Live
                   </a>
                 </div>
@@ -84,10 +84,10 @@ export default function Projects() {
                 </p>
                 <div className="d-flex justify-content-around align-items-center">
                   {" "}
-                  <a href="https://github.com/sanjayloncha/tic-tac-toe" target="_blank" class="btn btn-danger mx-2">
+                  <a href="https://github.com/sanjayloncha/tic-tac-toe" target="_blank" class="btn btn-dark mx-2">
                     <i class="fa-brands fa-github mx-2 "></i>Github
                   </a>
-                  <a href="https://sanjaytictactoe.netlify.app/" target="_blank" class="btn btn-danger ">
+                  <a href="https://sanjaytictactoe.netlify.app/" target="_blank" class="btn btn-dark ">
                     <i class="fa-solid fa-code me-3"></i>Live
                   </a>
                 </div>
@@ -108,10 +108,10 @@ export default function Projects() {
                 </p>
                 <div className="d-flex justify-content-around align-items-center">
                   {" "}
-                  <a href="https://github.com/sanjayloncha/Bewakoof_Clone" target="_blank" class="btn btn-danger mx-2">
+                  <a href="https://github.com/sanjayloncha/Bewakoof_Clone" target="_blank" class="btn btn-dark mx-2">
                     <i class="fa-brands fa-github mx-2 "></i>Github
                   </a>
-                  <a href="https://bewakoof-clone6.netlify.app/" target="_blank" class="btn btn-danger ">
+                  <a href="https://bewakoof-clone6.netlify.app/" target="_blank" class="btn btn-dark ">
                   <i class="fa-solid fa-code me-3"></i>Live
                   </a>
                 </div>

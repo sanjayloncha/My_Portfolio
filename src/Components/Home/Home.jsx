@@ -12,7 +12,7 @@ export default function Home() {
             I am Front-end Web Developer and i have knowledge in HTML, CSS, JS,
             REACT, Redux, Node.js and make user-friendly websites.
           </p>
-          <a href="https://drive.google.com/file/d/1PG8ztq2evHMEoK63lGM2NX8ksy8RdMs8/view?usp=sharing" target="blank" className="btn btn-danger fs-5 ">
+          <a href="https://drive.google.com/file/d/1PG8ztq2evHMEoK63lGM2NX8ksy8RdMs8/view?usp=sharing" target="blank" className="btn btn-dark fs-5 ">
             Download cv <i class="fa-regular fa-circle-down mx-2 m-0"></i>
           </a>
         </div>
