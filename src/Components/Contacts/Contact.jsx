@@ -20,9 +20,9 @@ export default function Contact() {
               <a
                 href="https://github.com/sanjayloncha"
                 target="_blank"
-                class="btn btn-outline-light "
+                className="btn btn-outline-light "
               >
-                <i class="fa-brands fa-github mx-2 "></i>Github
+                <i className="fa-brands fa-github mx-2 "></i>Github
               </a>
             </span>
           </div>
@@ -31,9 +31,9 @@ export default function Contact() {
               <a
                 href="https://www.linkedin.com/in/sanjay-loncha/"
                 target="_blank"
-                class="btn btn-outline-light mx-2"
+                className="btn btn-outline-light mx-2"
               >
-                <i class="fa-brands fa-linkedin-in mx-2 "></i>Linked-In
+                <i className="fa-brands fa-linkedin-in mx-2 "></i>Linked-In
               </a>
             </span>
           </div>
@@ -43,9 +43,9 @@ export default function Contact() {
                 href="tel:+919773103282"
                 rel="noreferrer"
                 target="_blank"
-                class="btn btn-outline-light mx-2"
+                className="btn btn-outline-light mx-2"
               >
-                <i class="fa-solid fa-phone mx-2 "></i>+91 977 310 3282
+                <i className="fa-solid fa-phone mx-2 "></i>+91 977 310 3282
               </a>
             </span>
           </div>
@@ -55,9 +55,9 @@ export default function Contact() {
                 href="mailto:sanjayloncha3101@gmail.com"
                 rel="noreferrer"
                 target="_blank"
-                class="btn btn-outline-light mx-1"
+                className="btn btn-outline-light mx-1"
               >
-                <i class="fa-solid fa-envelope mx-1 "></i>sanjayloncha3101@gmail
+                <i className="fa-solid fa-envelope mx-1 "></i>sanjayloncha3101@gmail
               </a>
             </span>
           </div>

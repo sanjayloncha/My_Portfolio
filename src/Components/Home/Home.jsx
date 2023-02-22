@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import hero_img from "./hero_img.JPG";
+import bg_photo from "./bg_photo.png"
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
                     1200,
                     "Programmer",
                     1200,
-                    "Coder",
+                    "Coder...",
                     1200,
                   ]}
                   style={tStyle}
@@ -47,8 +47,8 @@ export default function Home() {
           <div className="col-11  col-md-5  mx-auto my-3 order-1 ">
             <div className="img__container  mx-auto ">
               <img
-                src={hero_img}
-                alt="hero-image"
+                src={bg_photo}
+                alt="hero"
                 className=" img-fluid"
                 id="hero_image"
               />

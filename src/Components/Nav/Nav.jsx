@@ -6,51 +6,51 @@ export default function Nav() {
  
   return (
     <div id='navBar'>
-      <nav id="navTag" class="navbar navbar-expand-lg bg-dark fixed-top ">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="/">
+      <nav id="navTag" className="navbar navbar-expand-lg bg-dark fixed-top ">
+        <div className="container-fluid ">
+          <a className="navbar-brand text-light" href="/">
            <span className='navBar_span' > Sanjay Loncha </span>
           </a>
           <button
-            class="navbar-toggler collapsed"
+            className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
           >
-            <span class="toggler-icon top-bar"></span>
-        <span class="toggler-icon middle-bar"></span>
-        <span class="toggler-icon bottom-bar"></span>
+            <span className="toggler-icon top-bar"></span>
+        <span className="toggler-icon middle-bar"></span>
+        <span className="toggler-icon bottom-bar"></span>
           </button>
 
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light " aria-current="page" href="#">
+          <div className="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active text-light " aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light " href="#home">
+              <li className="nav-item">
+                <a className="nav-link text-light " href="#home">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light " href="#about">
+              <li className="nav-item">
+                <a className="nav-link text-light " href="#about">
                   Skills
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light " href="#github">
+              <li className="nav-item">
+                <a className="nav-link text-light " href="#github">
                   Github
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light " href="#project_component">
+              <li className="nav-item">
+                <a className="nav-link text-light " href="#project_component">
                   Projects
                 </a>
               </li>{" "}
-              <li class="nav-item">
-                <a class="nav-link text-light " href="#contact">
+              <li className="nav-item">
+                <a className="nav-link text-light " href="#contact">
                   Contacts
                 </a>
               </li>

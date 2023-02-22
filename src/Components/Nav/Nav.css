@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Quintessential&family=Sevillana&family=Titillium+Web:wght@400;700&display=swap');
 
+#navBar{
+    /* overflow-x: hidden !important; */
+    max-width: 50 ;
+}
+
 .navBar_span {
     font-family: 'Quintessential', cursive;
     font-size: 30px;
