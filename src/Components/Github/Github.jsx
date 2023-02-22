@@ -62,6 +62,14 @@ export default function Github() {
               />
             </div>
           </div>
+          <div data-aos="flip-left" data-aos-duration="700"   data-aos-easing="ease-in-out" className="col-11 col-lg-7 my-2 mx-auto text-center ">
+            <div className="card">
+              <img
+                src="https://github-readme-streak-stats.herokuapp.com/?user=sanjayloncha&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"
+                align="center"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
