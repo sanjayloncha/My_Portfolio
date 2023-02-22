@@ -16,7 +16,7 @@ export default function Projects() {
           >
             Projects
           </div>
-          <div className="col-10 col-lg-6 my-2 mx-auto text-center">
+          <div data-aos="fade-right" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto text-center">
             <div class="card ">
               <img
                 src={domino}
@@ -42,7 +42,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-10 col-lg-6 my-2 mx-auto text-center">
+          <div data-aos="fade-left" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto text-center">
             <div class="card ">
               <img
                 src={movie}
@@ -67,7 +67,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-10 col-lg-6 my-2 mx-auto text-center">
+          <div data-aos="fade-right" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto text-center">
             <div class="card ">
               <img
                 src={tic}
@@ -94,7 +94,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-10 col-lg-6 my-2 mx-auto text-center">
+          <div data-aos="fade-left" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto text-center">
             <div class="card ">
               <img
                 src={cloth}
