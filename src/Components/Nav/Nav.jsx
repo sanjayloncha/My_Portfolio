@@ -9,7 +9,7 @@ export default function Nav() {
       <nav id="navTag" class="navbar navbar-expand-lg bg-dark fixed-top ">
         <div class="container-fluid">
           <a class="navbar-brand text-light" href="/">
-            I am <span className='navBar_span' > Developer </span>
+           <span className='navBar_span' > Sanjay Loncha </span>
           </a>
           <button
             class="navbar-toggler collapsed"

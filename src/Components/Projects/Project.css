@@ -14,3 +14,7 @@
 .btn {
     background-color: teal;
 }
+
+#project_component img {
+    border-radius: 20px;
+}
