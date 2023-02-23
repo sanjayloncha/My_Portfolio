@@ -9,55 +9,55 @@ export default function Contact() {
         id="contact_container"
       >
         <h3 className="display-5 text-center  py-2">Contact Me</h3>
-        <p className="lead text-center mb-4 fs-4 ">
+        <p className="lead text_just mb-4 fs-4 footer_para">
           Want to talk about a project collaboration, or want to get in touch or
           just say hi, I'd love to hear from you.
         </p>
         <hr />
         <div className="row  mx-auto text-center ">
-          <div className="col-11 mx-auto text-center  col-md-6 my-2 col-lg-2">
+          <div className="col-3 mx-auto text-center  col-md-6 my-2 col-lg-3">
             <span>
               <a
                 href="https://github.com/sanjayloncha"
                 target="_blank"
                 className="btn btn-outline-light "
               >
-                <i className="fa-brands fa-github mx-2 "></i>Github
+                <i className="fa-brands fa-github fa-2x"></i>
               </a>
             </span>
           </div>
-          <div className=" col-11 mx-auto text-center col-md-6 my-2 col-lg-3">
+          <div className=" col-3 mx-auto text-center col-md-6 my-2 col-lg-3">
             <span>
               <a
                 href="https://www.linkedin.com/in/sanjay-loncha/"
                 target="_blank"
-                className="btn btn-outline-light mx-2"
+                className="btn btn-outline-light"
               >
-                <i className="fa-brands fa-linkedin-in mx-2 "></i>Linked-In
+                <i className="fa-brands fa-linkedin-in fa-2x "></i>
               </a>
             </span>
           </div>
-          <div className="col-11 mx-auto text-center col-md-6 my-2 col-lg-3">
+          <div className="col-3 mx-auto text-center col-md-6 my-2 col-lg-3">
             <span>
               <a
                 href="tel:+919773103282"
                 rel="noreferrer"
                 target="_blank"
-                className="btn btn-outline-light mx-2"
+                className="btn btn-outline-light "
               >
-                <i className="fa-solid fa-phone mx-2 "></i>+91 977 310 3282
+                <i className="fa-solid fa-phone fa-2x "></i>
               </a>
             </span>
           </div>
-          <div className="col-12 mx-auto text-center col-md-6 my-2 col-lg-4">
+          <div className="col-3 border-0 mx-auto text-center col-md-6 my-2 col-lg-3">
             <span>
               <a
                 href="mailto:sanjayloncha3101@gmail.com"
                 rel="noreferrer"
                 target="_blank"
-                className="btn btn-outline-light mx-1"
+                className="btn btn-outline-light "
               >
-                <i className="fa-solid fa-envelope mx-1 "></i>sanjayloncha3101@gmail
+                <i className="fa-solid fa-envelope fa-2x "></i>
               </a>
             </span>
           </div>

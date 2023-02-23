@@ -4,18 +4,15 @@ import bg_photo from "./bg_photo.png"
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
-  let tStyle = {
-    letterSpacing: "2px",
-  };
 
   return (
     <div id="home">
       <div className="container mx-auto home__bg d-flex ">
         <div className="row d-flex align-items-center">
           <div className="col-11  col-md-7  mx-auto order-2 ">
-            <h1>
+            <h1 className="text-center">
               Hi, I'm{" "}
-              <span className="hero_name">
+              <span className="hero_name ">
                 <TypeAnimation
                   sequence={[
                     "Developer",
@@ -25,14 +22,13 @@ export default function Home() {
                     "Coder...",
                     1200,
                   ]}
-                  style={tStyle}
                   speed={5}
                   deletionSpeed={30}
                   repeat={Infinity}
                 />
               </span>
             </h1>
-            <p className="fs-5 w-75 m-auto my-4">
+            <p className="fs-5 w-100 m-auto my-4 text_just ">
               My name is Sanjay Loncha. I am Front End Developer living in
               Gujarat, India.
             </p>

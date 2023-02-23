@@ -1,6 +1,11 @@
-#email {
-    margin-top: -3px;
-    text-decoration: none;
-    color: white;
-    /* padding: 0px 10px; */
+#contact a {
+    border: none;
 }
+
+@media only screen and (min-width: 1144px) {
+    .footer_para {
+        text-align: center;
+    }
+}
+
+

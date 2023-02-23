@@ -8,15 +8,15 @@ import "./Project.css";
 export default function Projects() {
   return (
     <div id="project_component">
-      <div className="container mx-auto text-center my-5">
-        <div className="row mx-auto text-center">
+      <div className="container mx-auto my-5">
+        <div className="row mx-auto ">
           <div
-            className="display-5 mx-auto text-center mt-2 mb-4 "
+            className="display-5 mx-auto mt-2 mb-4 text-center"
             id="project_main_heading"
           >
             Projects
           </div>
-          <div data-aos="zoom-in" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto text-center">
+          <div data-aos="zoom-in" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto">
             <div className="card ">
               <img
                 src={domino}
@@ -24,8 +24,8 @@ export default function Projects() {
                 alt="Domino"
               />
               <div className="card-body">
-                <h5 className="card-title">Domino Clone</h5>
-                <p className="card-text lead">
+                <h5 className="card-title text-center fs-2 fw-bold">Domino Clone</h5>
+                <p className="card-text lead text_just ">
                   This is food order and delivery app. User can search for different types of pizza he/she want and put them into cart for placing order. This was group project build in a week.
                   Following are the tech stack we have used to build this app: <br /> 
                   <span>HTML, CSS, JavaScript, React, Redux, ChakraUI, github. </span>
@@ -42,16 +42,16 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-in" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto text-center">
+          <div data-aos="zoom-in" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto ">
             <div className="card ">
               <img
                 src={movie}
-                className="card-img-top img-fluid mx-auto text-center"
+                className="card-img-top img-fluid mx-auto"
                 alt="movie"
               />
               <div className="card-body">
-                <h5 className="card-title">Movie Search App</h5>
-                <p className="card-text lead">
+                <h5 className="card-title text-center fs-2 fw-bold ">Movie Search App</h5>
+                <p className="card-text lead text_just">
                   This is movie search site, user can search for any movie and also add them to favourite. This was a solo project build in 2 days. 
                   These are the tech stack I have used to build this site : HTML, CSS, JS, ReactJS, Redux, Chakra UI .
                 </p>
@@ -67,7 +67,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-in" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto text-center">
+          <div data-aos="zoom-in" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto ">
             <div className="card ">
               <img
                 src={tic}
@@ -75,8 +75,8 @@ export default function Projects() {
                 alt="tic"
               />
               <div className="card-body">
-                <h5 className="card-title">Tic Tac Toe</h5>
-                <p className="card-text lead">
+                <h5 className="card-title text-center fs-2 fw-bold ">Tic Tac Toe</h5>
+                <p className="card-text lead text_just">
                   This is a simple tic-tac-toe game which everyone might have played in thier childhood.
                   two user can play this game off-line and enjoy in thier free time.
                   I have build this game using plane JavaScript (vanillaJS).
@@ -94,7 +94,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-in" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto text-center">
+          <div data-aos="zoom-in" data-aos-duration="500"  data-aos-easing="ease-in-out" className="col-10 col-lg-6 my-2 mx-auto">
             <div className="card ">
               <img
                 src={cloth}
@@ -102,8 +102,8 @@ export default function Projects() {
                 alt="Cloth"
               />
               <div className="card-body">
-                <h5 className="card-title">E-comm Shopping App</h5>
-                <p className="card-text lead">
+                <h5 className="card-title text-center fs-2 fw-bold ">E-comm Shopping App</h5>
+                <p className="card-text lead text_just">
                   This is e-comm shopping site. This was a group project build in a week. From this site user can look for different men and women clothes and order them accordingly. These are the tech-stack we have used in this site : HTML, CSS, Javascript, React, Redux, Chakra UI, Github, Netlify.
                 </p>
                 <div className="d-flex justify-content-around align-items-center">

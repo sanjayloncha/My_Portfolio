@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Quintessential&family=Sevillana&family=Shantell+Sans:wght@400;700&family=Titillium+Web&display=swap');
 
-* {
-  /* margin: 0;
-  padding: 0;
-  box-sizing: border-box; */
-  /* overflow-x: hidden !important; */
-}
 
 
 .App {
-  text-align: center;
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Quintessential', cursive;
   font-family: 'Sevillana', cursive;
   font-family: 'Shantell Sans', cursive;
   font-family: 'Titillium Web', sans-serif;
+}
+
+.text_just {
+  text-align: justify;
 }
