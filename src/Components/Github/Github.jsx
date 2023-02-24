@@ -1,5 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
+import "./Github.css" ;
 
 export default function Github() {
   const selectLastHalfYear = (contributions) => {
@@ -89,14 +90,14 @@ export default function Github() {
             </div>
           </div>
 
-          <div className="row mx-auto ">
+          <div className="mx-auto text-center main_DSA">
             <div
               data-aos="zoom-in"
               data-aos-duration="700"
               data-aos-easing="ease-in-out"
-              className="col-4 my-2 mx-auto "
+              className="my-2 text-center"
             >
-              <div className="card col-lg-4 ">
+              <div className="card p-2 mx-auto">
                 <span className="fw-bold fs-3" >1300+</span>
                 <span className="fs-4" >Hours</span>
                 <span>coding</span>
@@ -106,9 +107,9 @@ export default function Github() {
               data-aos="zoom-in"
               data-aos-duration="700"
               data-aos-easing="ease-in-out"
-              className="col-4 my-2 mx-auto "
+              className=" my-2 "
             >
-              <div className="card col-lg-4 ">
+              <div className="card p-2">
                 <span className="fw-bold fs-3" >1000+</span>
                 <span className="fs-4" >Hours</span>
                 <span>DSA</span>
@@ -118,9 +119,9 @@ export default function Github() {
               data-aos="zoom-in"
               data-aos-duration="700"
               data-aos-easing="ease-in-out"
-              className="col-4 my-2 mx-auto "
+              className=" my-2 "
             >
-              <div className="card col-lg-4 ">
+              <div className="card px-3 py-2">
                 <span  className="fw-bold fs-3">600+</span>
                 <span className="fs-4">DSA</span>
                 <span>Solved</span>
